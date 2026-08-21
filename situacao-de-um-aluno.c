@@ -19,7 +19,7 @@ int main()
     {
         printf("A media do aluno foi %.2lf e ele foi REPROVADO\n", media);
     }
-    else if (media >= 40 && media <= 70)
+    else if (media > 40 && media < 70)
     {
         printf("A media do aluno foi %.2lf e ele foi FINAL\n", media);
     }
