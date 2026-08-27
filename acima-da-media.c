@@ -5,7 +5,7 @@
 
 int main() {
     double num1, num2, num3;
-    int qtd;
+    int qtd = 0;
     scanf("%lf", &num1);
     scanf("%lf", &num2);
     scanf("%lf", &num3);
