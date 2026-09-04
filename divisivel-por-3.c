@@ -5,9 +5,8 @@
 
 int divisores(int n, int contador, int divisor)
 {
-    if (divisor == n + 1)
+    if (divisor > n)
     {
-
         return contador;
     }
     else
